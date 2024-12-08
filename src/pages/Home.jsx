@@ -45,12 +45,12 @@ const Home = () => {
                     <input type="checkbox" id="sn-1" class="sidenote-toggle" />
                     <span class="sidenote">updates automatically</span></li>
             </ul>
-        
+{/*         
             <h3>Publications, etc.</h3>
             <p>Includes journal publications, conference proceedings, posters, basically everything.</p>
             <ul>
                 <li><i>Simulation of Lander-space interaction in Lunar environment,</i> (2024) <br/> R. Marchand, S. Leader - 17th Spacecraft Charging and Technology Conference</li>
-            </ul>
+            </ul> */}
             <div class="abstract"><small>
                 <a href="javascript:void(0);" id="dark-mode-toggle" onClick={() => {
                     document.body.classList.toggle("latex-dark");
