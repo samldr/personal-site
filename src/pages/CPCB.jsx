@@ -19,7 +19,7 @@ const Home = () => {
                 <p><strong>Computers, Pattern, Chaos, and Beauty</strong></p>
                 <p><a href="/.">back</a></p>
             </div>   
-            <p>Generative art made with MATLAB based on algorithms from Clifford A. Pickover's book <em>Computers, Patterns, Chaos, and Beauty: Graphics from an Unseen World</em>.</p>
+            <p>Clifford A. Pickover's <em>Computers, Patterns, Chaos, and Beauty: Graphics from an Unseen World</em> is one of my favourite books. Here are some generative art pieces I made in MATLAB based on his algorithms.</p>
             <br/>
             <figure style={{display: 'block', marginLeft: 'auto', marginRight: 'auto'}}>
                 <img src={attractor1} />
@@ -49,7 +49,7 @@ const Home = () => {
                     document.body.classList.toggle("latex-dark");
                     document.body.classList.contains("latex-dark")?localStorage.setItem("mode", "dark"):localStorage.setItem("mode", "light");
                 }}>dark/light</a>
-        <p>last updated 2024-11-11</p>
+        <p>last updated 2025-02-16</p>
     </small></div>
         </>
     );
