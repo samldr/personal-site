@@ -26,10 +26,10 @@ const Home = () => {
         <p>My favourite of this type of atrium is probably in CCIS, where giant mirrors reflect sunlight from the 6th floor all the way down to L2, with a maze of bridges, staircases and little study landings. I think if I went to grad grad school at the U of A I would try to do it in physics just so I would have the chance of having an office facing the inside of the atrium where I could look down and see all the people moving around all day. </p>
         <br></br>
         <figure style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '80%'}}>
-        <img src={"http://cpp-plus.physics.ualberta.ca/images/resources/The_CENTENNIAL_CENTRE_FOR_INTERDISCIPLINARY_SCIENCE_Page_2_Image_0001.jpg"}/>
+        <img src={"https://www.ualberta.ca/en/newtrail/media-library/issues/2011-spring/ccis/ccismain.jpg"}/>
         <figcaption style={{textAlign: 'center'}}>CCIS, right after it was built<label for="sn-1" class="sidenote-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="sidenote-toggle" />
-<span class="sidenote"><a href="http://cpp-plus.physics.ualberta.ca/index.php/mrs-base-ccis">image source</a></span></figcaption>
+<span class="sidenote"><a href="https://www.ualberta.ca/en/newtrail/media-library/issues/2011-spring/ccis/ccismain.jpg">image source</a></span></figcaption>
         </figure>
 
         <p>Only two atriums on campus are regularly referred to as atriums, one of which is the ALES atrium in Ag/For, but there are so many more spaces than that I can think of now, even when compared to when I started writing. HUB mall could be considered an atrium, and even CAB, which is probably the ugliest building on the outside on campus, has an open centre going halfway up the building.</p>
