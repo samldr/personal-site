@@ -1,1 +1,1 @@
-This is version 4 of my personal site which unforunately had to be made with React. It uses Latex.css for the styling.
+This is v4 of my personal site, built with React.js and LaTeX.css
