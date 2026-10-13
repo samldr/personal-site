@@ -34,9 +34,10 @@ const Home = () => {
             <div class="abstract">
             
                 <p><strong>email:</strong> sleader (at) ualberta (dot) ca</p>
-                <p><a href="https://linkedin.com/in/sam-leader">linkedin</a> | <a href="https://github.com/samldr">github</a></p>
+                <p><a href="https://linkedin.com/in/sam-leader">LinkedIn</a> | <a href="https://github.com/samldr">GitHub</a> | <a href="https://orcid.org/0009-0006-2032-7483">ORCID</a></p>
             </div>
-            <p>I am a fourth-year electrical engineering co-op student at the University of Alberta. Right now, I'm a test specialist intern at <a href="https://xiphos.com/">Xiphos</a>. I also co-lead the development of <a href ="https://albertasat.ca/">AlbertaSat's</a> magnetometer payload for the Ex-Alta 3 cubesat, I research computational plasma physics with <a href="https://sites.ualberta.ca/~rmarchan/">Dr. Richard Marchand</a>, and I previously developed electronics for superconductivity research for the <a href="https://www.polymtl.ca/expertises/laboratoire-de-supraconductivite-et-magnetisme-lsm">LSM</a> at Polytechnique Montréal.</p>
+            <p>I am a final-year electrical engineering co-op undergraduate student at the University of Alberta. Right now, I am the systems team lead for <a href ="https://albertasat.ca/">AlbertaSat</a>'s Ex-Alta 3 cubesat and I research computational plasma physics with <a href="https://sites.ualberta.ca/~rmarchan/">Dr. Richard Marchand</a>.</p>
+            <p>Previously, I was a test specialist intern at <a href="https://xiphos.com/">Xiphos</a> and I developed electronics for superconductivity research for the <a href="https://www.polymtl.ca/expertises/laboratoire-de-supraconductivite-et-magnetisme-lsm">LSM</a> at Polytechnique Montréal. I also used to lead the development of Ex-Alta 3's magnetometer payload.</p>
             <h3>Projects & Interests</h3>
             <ul>
                 <li><a href="https://github.com/samldr/wave-optics">wave-optics</a>: a 2D wave optics simulator made in C++ (WIP)</li>
@@ -56,7 +57,7 @@ const Home = () => {
                     document.body.classList.toggle("latex-dark");
                     document.body.classList.contains("latex-dark")?localStorage.setItem("mode", "dark"):localStorage.setItem("mode", "light");
                 }}>dark/light</a>
-                <p>last updated 2025-02-16</p>
+                <p>last updated 2026-10-13</p>
             </small></div>
         </>
     );
