@@ -1,11 +1,11 @@
 import React from "react";
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
 
 const Home = () => {
     
     useEffect(() => {
-        localStorage.getItem("mode")=="dark"?document.body.classList.add("latex-dark"):localStorage?.getItem("mode")??localStorage.setItem("mode", "light");
+        localStorage.getItem("mode")==="dark"?document.body.classList.add("latex-dark"):localStorage?.getItem("mode")??localStorage.setItem("mode", "light");
     }, []);
         
     

@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 
 import attractor1 from "../images/cpcb/attractor1.jpg";
 import spiral2 from "../images/cpcb/spiral2.jpg";
@@ -8,7 +8,7 @@ import spiral2 from "../images/cpcb/spiral2.jpg";
 const Home = () => {
     
     useEffect(() => {
-        localStorage.getItem("mode")=="dark"?document.body.classList.add("latex-dark"):localStorage?.getItem("mode")??localStorage.setItem("mode", "light");
+        localStorage.getItem("mode")==="dark"?document.body.classList.add("latex-dark"):localStorage?.getItem("mode")??localStorage.setItem("mode", "light");
     }, []);
         
     
