@@ -11,7 +11,7 @@ const Home = () => {
         const lfmusername = process.env.REACT_APP_USER; 
         const lfmapiUrl = `https://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${lfmusername}&period=7day&limit=1&api_key=${lfmapiKey}&format=json`;
 
-        const grUsername = process.env.GR_USER;
+        const grUsername = process.env.REACT_APP_GR_USER;
         const grURL = `https://api.piratereads.com/${grUsername}/currently-reading`;
 
         fetch(lfmapiUrl)
